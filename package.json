@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for the full-stack demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "apiKey=sk-6e0aacfbdced486596fee4dbae648a19 node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "live": "^0.1.19",
+    "mammoth": "^1.9.1",
+    "multer": "^2.0.1",
+    "openai": "^5.5.1",
+    "server": "^1.0.41"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.5.0"
+  }
+}
