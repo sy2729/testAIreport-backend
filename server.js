@@ -18,12 +18,7 @@ const __dirname = path.dirname(__filename);
 
 app.use(cors());
 const upload = multer({ dest: 'uploads/' });
-app.use((req, res, next) => {
-  res.setHeader('Access-Control-Allow-Origin', '*'); // 允许所有域名访问
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-  next();
-});
+
 
 // 读取 prompt.txt 文件内容
 const promptFilePath = path.join(__dirname, 'prompt.txt');
