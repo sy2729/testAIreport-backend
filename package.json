@@ -4,7 +4,7 @@
   "description": "Backend for the full-stack demo",
   "main": "server.js",
   "scripts": {
-    "start": "apiKey=sk-6e0aacfbdced486596fee4dbae648a19 node server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
